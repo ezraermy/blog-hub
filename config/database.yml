@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   database: blog_hub_development
-  username: ezra
+  username: postgres
   password: ezraermi333
 
   # The specified database role being used to connect to postgres.
